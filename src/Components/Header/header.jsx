@@ -32,7 +32,7 @@ const HeadingItems = ({ name, logo, label }) => {
   );
 };
 
-function Heading() {
+function Header() {
   return (
     <StyledHeading>
       <HeadingItems
@@ -44,4 +44,4 @@ function Heading() {
   );
 }
 
-export default Heading;
+export default Header;
