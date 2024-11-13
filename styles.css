@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
+*{padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --color-primary:rgb(105, 79, 142);
+    --color-secondary:rgb(182, 146, 194);
+    --color-tertiary:rgb(227, 165, 199);
+    --color-footer:rgb(255, 223, 214);
+}
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 3rem;
+}
+.header{
+    background-color:var(--color-footer);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+
+}
+
+.logo-text{
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    color:var(--color-secondary);
+
+}
+.header-nav-list{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+}
+.header-nav-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color-primary);
+    transition: color 0.3s;
+    font-weight: 800;
+}
+.header-nav-link:hover{
+    color: var(--color-footer);
+    background-color: var(--color-secondary);
+}
+/*end of header*/
+/*hero section*/
+.hero-section{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
+    url(./assets/hero2.jpg) ,url(./assets/hero1.jpg);
+  background-size: cover;
+  background-position: top;
+}
+.text-box{
+    color: var(--color-secondary);
+    font-size: 1.5rem;
+}
+.hero-link{
+   color: black;
+   background-color: var(--color-primary);
+   border-radius: 100px;
+   text-decoration: none;
+   border: 2px solid crimson;
+   box-shadow: 5px 5px 10px rgba(218, 215, 215, 0.3),
+   10px 10px 10px rgba(255, 255, 255, 0.2),
+   10px 10px 10px rgba(243, 240, 240, 0.1); 
+   font-size: 15px;
+   text-transform: capitalize ;
+   letter-spacing: 2px;
+   display: inline-block;
+   padding: 1rem 1rem;
+   margin-top: 3rem;
+   margin-left: 24rem;
+
+}
+/*end of hero section*/
+
+/*about section*/
+.about-section{
+    background-color: var(--color-footer);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+/*end of about section*/
