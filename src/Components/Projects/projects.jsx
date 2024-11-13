@@ -31,6 +31,11 @@ const projects = [
     description: "A website for Murang'a University Technology Club.",
     languages: ["React", "HTML", "JavaScript", "CSS"],
   },
+  {
+    title: "blogIt",
+    description: "A fullstack appliation,blogging website.",
+    languages: ["React", "HTML", "JavaScript", "CSS" ,"express", "prisma", "node.js"],
+  },
 ];
 
 function Projects() {

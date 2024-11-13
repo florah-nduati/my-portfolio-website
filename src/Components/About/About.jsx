@@ -8,15 +8,7 @@ function About() {
       <Texts>
         <h1>About Me</h1>
         <p>
-          I'm a front-end developer that learned everything on my own. I
-          specialize in creating dynamic, accessible websites that work on any
-          device. Furthermore, I regularly create creative solutions that
-          improve user experiences. I am proficient in React.js, JavaScript,
-          HTML5, and CSS. I guarantee efficient code management and
-          communication thanks to my knowledge with Git version control.
-          Likewise, I'm also skilled at developing apps using mini program
-          studio frameworks and exceeding client expectations with my
-          high-caliber solutions.
+          I'm a full stack developer. As a passionate full-stack developer, I thrive in creating seamless and dynamic web applications that deliver exceptional user experiences. With expertise in both front-end and back-end technologies, I bring a well-rounded skill set to every project, ensuring that both the user interface and server-side functionality are built to the highest standards. I am committed to continuous learning and staying up-to-date with the latest technologies, enabling me to tackle complex challenges and bring innovative solutions to life.
         </p>
       </Texts>
       <Profile>
