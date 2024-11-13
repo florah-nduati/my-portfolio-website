@@ -54,7 +54,7 @@ const HeroComponent = ({ greetings, name, skill, description, btn }) => {
   );
 };
 
-function Hero2() {
+function Hero() {
   return (
     <HeroComponent
       greetings="Hello there 👋"
@@ -66,4 +66,4 @@ function Hero2() {
   );
 }
 
-export default Hero2;
+export default Hero;
