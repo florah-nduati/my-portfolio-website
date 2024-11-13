@@ -24,6 +24,9 @@ const HeadingItems = ({ name, logo, label }) => {
         <Link to="projects" smooth={true} duration={3000}>
           Projects
         </Link>
+        <Link to="projects" smooth={true} duration={3000}>
+          Certifications
+        </Link>
         <Link to="contacts" smooth={true} duration={3000}>
           Contacts
         </Link>

@@ -7,6 +7,9 @@ import { FaReact } from "react-icons/fa";
 import { FaGit } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { IoLogoPython } from "react-icons/io5";
+import { SiPrisma } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 import {
   StyledTechnologies,
   TechContainer,
@@ -62,6 +65,26 @@ function Technologies() {
           <IoLogoPython size={50} color="yellow" />
           <h3>Python</h3>
           <p>A version control system for tracking changes in code.</p>
+        </TechCard>
+        <TechCard>
+          <IoLogoPython size={50} color="blue" />
+          <h3>express</h3>
+          <p> A minimalist Node.js web framework, providing essential tools to build robust APIs and web apps with ease.</p>
+        </TechCard>
+        <TechCard>
+          <SiPrisma  size={50} color="red" />
+          <h3>Prisma</h3>
+          <p>An open-source ORM for Node.js and TypeScript, simplifying database access and management with a type-safe AP</p>
+        </TechCard>
+        <TechCard>
+          <BiLogoPostgresql  size={50} color="pink" />
+          <h3>postgresql</h3>
+          <p>A version control system for tracking changes in code.</p>
+        </TechCard>
+        <TechCard>
+          <SiPostman size={50} color="red" />
+          <h3>postman</h3>
+          <p>A popular API testing tool for sending requests, automating testing, and documenting APIs effectively.</p>
         </TechCard>
       </TechContainer>
     </StyledTechnologies>

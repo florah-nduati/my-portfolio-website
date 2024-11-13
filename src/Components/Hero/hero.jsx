@@ -59,8 +59,9 @@ function Hero() {
     <HeroComponent
       greetings="Hello there 👋"
       name="I am Florah Nduati"
-      skill="Web Developer"
-      description="Crafting user-friendly and aesthetic UI designs is not just my profession, it's my passion."
+      skill="full stack developer"
+      description="Crafting code from concept to deployment, end to end.
+Transforming ideas into interactive, reliable solutions."
       btn="Let's talk"
     />
   );
