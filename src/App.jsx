@@ -1,6 +1,6 @@
 import Header from "./Components/Header/header";
 import Hero from "./Components/Hero/hero"
-import About from "./Components/About/about";
+import About from "./Components/About/About";
 import Technologies from "./components/Technologies/Technologies";
 import Projects from "./components/Projects/Projects";
 import Certifications from "./components/certifications/certifications";
