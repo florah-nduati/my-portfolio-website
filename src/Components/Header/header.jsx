@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import { FaLightbulb } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { StyledHeading, NavLinks, LogoLabel } from "../styled/Header.styled";
