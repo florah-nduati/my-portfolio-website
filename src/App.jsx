@@ -1,5 +1,5 @@
 import Header from "./Components/Header/header";
-import Hero from "./components/Hero/Hero";
+import Hero from './components/Hero/Hero'
 import About from "./components/About/About";
 import Technologies from "./components/Technologies/Technologies";
 import Projects from "./components/Projects/Projects";
