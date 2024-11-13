@@ -1,10 +1,10 @@
 import Header from "./Components/Header/header";
-import Hero from "./components/Hero/hero";
-import About from "./components/About/about";
-import Technologies from "./components/Technologies/technologies";
-import Projects from "./components/Projects/projects";
+import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
+import Technologies from "./components/Technologies/Technologies";
+import Projects from "./components/Projects/Projects";
 import Certifications from "./components/certifications/certifications";
-import Contact from "./components/Contacts/contacts";
+import Contact from "./components/Contacts/Contacts";
 import "./App.css";
 
 function App() {
