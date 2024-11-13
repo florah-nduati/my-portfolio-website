@@ -1,7 +1,6 @@
 import React from "react";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare, FaInstagramSquare } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
-import { FaInstagramSquare } from "react-icons/fa";
 import image from "../../assets/me.jpeg";
 import {
   StyledContainer,
@@ -48,7 +47,7 @@ const HeroComponent = ({ greetings, name, skill, description, btn }) => {
         </Social>
       </Texts>
       <Profile>
-        <img src={image} alt="my image" />
+        <img src={image} alt="Florah Nduati's profile image" />
       </Profile>
     </StyledContainer>
   );
@@ -59,9 +58,8 @@ function Hero() {
     <HeroComponent
       greetings="Hello there 👋"
       name="I am Florah Nduati"
-      skill="full stack developer"
-      description="Crafting code from concept to deployment, end to end.
-Transforming ideas into interactive, reliable solutions."
+      skill="Full stack developer"
+      description="Crafting code from concept to deployment, end to end. Transforming ideas into interactive, reliable solutions."
       btn="Let's talk"
     />
   );

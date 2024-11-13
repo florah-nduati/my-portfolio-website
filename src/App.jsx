@@ -1,10 +1,10 @@
-import Header from "./Components/Header/header.jsx";
-import Hero from "./components/Hero/hero.jsx";
-import About from "./components/About/About.jsx";
+import Header from "./Components/Header/header";
+import Hero from "./components/Hero/hero";
+import About from "./components/About/about";
 import Technologies from "./components/Technologies/technologies";
 import Projects from "./components/Projects/projects";
-import Certifications from "./components/certifications/certifications.jsx";
-import Contact from "./components/Contacts/contacts.jsx";
+import Certifications from "./components/certifications/certifications";
+import Contact from "./components/Contacts/contacts";
 import "./App.css";
 
 function App() {
